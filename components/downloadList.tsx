@@ -6,7 +6,7 @@ export default function DownloadList() {
     const t = useTranslations('Index');
     return (
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center my-10 gap-7 overflow-hidden">
-            <li className="h-96 w-80 rounded-3xl bg-slate- 700 text-black text-center py-10 px-5">
+            <li className="h-96 w-80 rounded-3xl bg-slate-600 text-black text-center py-10 px-5">
                 <Image
                     height={1000}
                     width={1000}
@@ -40,7 +40,7 @@ export default function DownloadList() {
                     </Link>
                 </div>
             </li>
-            <li className="h-96 w-80 rounded-3xl bg-slate- 700 text-black text-center py-10 px-5">
+            <li className="h-96 w-80 rounded-3xl bg-slate-600 text-black text-center py-10 px-5">
                 <Image
                     height={1000}
                     width={1000}
@@ -74,7 +74,7 @@ export default function DownloadList() {
                     </Link>
                 </div>
             </li>
-            <li className="h-96 w-80 rounded-3xl bg-slate- 700 text-black text-center py-10 px-5">
+            <li className="h-96 w-80 rounded-3xl bg-slate-600 text-black text-center py-10 px-5">
                 <Image
                     height={1000}
                     width={1000}
@@ -108,7 +108,7 @@ export default function DownloadList() {
                     </Link>
                 </div>
             </li>
-            <li className="h-96 w-80 rounded-3xl bg-slate- 700 text-black text-center py-10 px-5">
+            <li className="h-96 w-80 rounded-3xl bg-slate-600 text-black text-center py-10 px-5">
                 <Image
                     height={1000}
                     width={1000}
