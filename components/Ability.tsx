@@ -10,13 +10,10 @@ import { useTranslations } from 'next-intl';
 export default function Ability() {
   const t = useTranslations('Index');
   return (
-    <div className="m-8">
+    <div className="m-8 flex justify-center items-center">
       <Swiper
-        spaceBetween={50}
         slidesPerView={1}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
-        centeredSlides={true}
+        spaceBetween={50}
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
@@ -33,7 +30,7 @@ export default function Ability() {
         }}
       >
         <SwiperSlide>
-          <div className="h-60 w-72 md:h-72 md:w-96 bg-[#f4f5f7] text-black rounded-2xl flex flex-col justify-center items-center text-center p-4 gap-3">
+          <div className="h-64 w-auto md:h-72 bg-[#f4f5f7] text-black rounded-2xl flex flex-col justify-center items-center text-center p-4 gap-3">
             <div className="flex justify-center items-center gap-2">
               <svg
                 width="50"
@@ -85,7 +82,7 @@ export default function Ability() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h-60 w-72 md:h-72 md:w-96 bg-[#f4f5f7] text-black rounded-2xl flex flex-col justify-center items-center text-center p-4 gap-3">
+          <div className="h-64 w-auto md:h-72 bg-[#f4f5f7] text-black rounded-2xl flex flex-col justify-center items-center text-center p-4 gap-3">
             <div className="flex justify-center items-center gap-2">
               <svg
                 width="50"
@@ -122,7 +119,7 @@ export default function Ability() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h-60 w-72 md:h-72 md:w-96 bg-[#f4f5f7] text-black rounded-2xl flex flex-col justify-center items-center text-center p-4 gap-3">
+          <div className="h-64 w-auto md:h-72 bg-[#f4f5f7] text-black rounded-2xl flex flex-col justify-center items-center text-center p-4 gap-3">
             <div className="flex justify-center items-center gap-2">
               <svg
                 width="50"
@@ -202,7 +199,7 @@ export default function Ability() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h-60 w-72 md:h-72 md:w-96 bg-[#f4f5f7] text-black rounded-2xl flex flex-col justify-center items-center text-center p-4 gap-3">
+          <div className="h-64 w-auto md:h-72 bg-[#f4f5f7] text-black rounded-2xl flex flex-col justify-center items-center text-center p-4 gap-3">
             <div className="flex justify-center items-center gap-2">
               <svg
                 width="50"
@@ -239,7 +236,7 @@ export default function Ability() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h-60 w-72 md:h-72 md:w-96 bg-[#f4f5f7] text-black rounded-2xl flex flex-col justify-center items-center text-center p-4 gap-3">
+          <div className="h-64 w-auto md:h-72 bg-[#f4f5f7] text-black rounded-2xl flex flex-col justify-center items-center text-center p-4 gap-3">
             <div className="flex justify-center items-center gap-2">
               <svg width="55" height="55" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_b_273_3991)">
