@@ -3,21 +3,12 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: vazir;
-  src: url(../../public/fonts/Vazir.ttf);
+  font-family: Estedad-Bold;
+  src: url(../../public/fonts/Estedad-Bold.ttf);
 }
 
-@font-face {
-  font-family: LilitaOne;
-  src: url(../../public/fonts/LilitaOne-Regular.ttf);
-}
-
-.font-vazir {
-  font-family: vazir;
-}
-
-.font-LilitaOne {
-  font-family: LilitaOne;
+* {
+  font-family: Estedad-Bold;
 }
 
 html {
