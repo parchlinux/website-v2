@@ -6,7 +6,7 @@ export default function DownloadList() {
     const t = useTranslations('Index');
     return (
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center my-10 gap-7 overflow-hidden">
-            <li className="h-96 w-80 rounded-3xl bg-slate-100 text-black text-center py-10 px-5">
+            <li className="h-96 w-80 rounded-3xl bg-slate-600 text-black text-center py-10 px-5">
                 <Image
                     height={1000}
                     width={1000}
@@ -25,7 +25,7 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3 hover:ring-8 ring-rose-300 cursor-pointer truncate text-white">
+                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3  cursor-pointer truncate text-white">
                             {t("download")}
                         </button>
                     </Link>
@@ -34,13 +34,13 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3 hover:ring-8 ring-blue-300 cursor-pointer truncate text-white">
+                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3  cursor-pointer truncate text-white">
                             {t("Torrent")}
                         </button>
                     </Link>
                 </div>
             </li>
-            <li className="h-96 w-80 rounded-3xl bg-slate-100 text-black text-center py-10 px-5">
+            <li className="h-96 w-80 rounded-3xl bg-slate-600 text-black text-center py-10 px-5">
                 <Image
                     height={1000}
                     width={1000}
@@ -59,7 +59,7 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3 hover:ring-8 ring-rose-300 cursor-pointer truncate text-white">
+                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3  cursor-pointer truncate text-white">
                             {t("download")}
                         </button>
                     </Link>
@@ -68,13 +68,13 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3 hover:ring-8 ring-blue-300 cursor-pointer truncate text-white">
+                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3  cursor-pointer truncate text-white">
                             {t("Torrent")}
                         </button>
                     </Link>
                 </div>
             </li>
-            <li className="h-96 w-80 rounded-3xl bg-slate-100 text-black text-center py-10 px-5">
+            <li className="h-96 w-80 rounded-3xl bg-slate-600 text-black text-center py-10 px-5">
                 <Image
                     height={1000}
                     width={1000}
@@ -93,7 +93,7 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3 hover:ring-8 ring-rose-300 cursor-pointer truncate text-white">
+                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3  cursor-pointer truncate text-white">
                             {t("download")}
                         </button>
                     </Link>
@@ -102,13 +102,13 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3 hover:ring-8 ring-blue-300 cursor-pointer truncate text-white">
+                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3  cursor-pointer truncate text-white">
                             {t("Torrent")}
                         </button>
                     </Link>
                 </div>
             </li>
-            <li className="h-96 w-80 rounded-3xl bg-slate-100 text-black text-center py-10 px-5">
+            <li className="h-96 w-80 rounded-3xl bg-slate-600 text-black text-center py-10 px-5">
                 <Image
                     height={1000}
                     width={1000}
@@ -127,7 +127,7 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3 hover:ring-8 ring-rose-300 cursor-pointer truncate text-white">
+                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3  cursor-pointer truncate text-white">
                             {t("download")}
                         </button>
                     </Link>
@@ -136,7 +136,7 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3 hover:ring-8 ring-blue-300 cursor-pointer truncate text-white">
+                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3  cursor-pointer truncate text-white">
                             {t("Torrent")}
                         </button>
                     </Link>

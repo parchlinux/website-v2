@@ -149,9 +149,7 @@ export default function Footer() {
       </div>
 
       <p className="text-xl text-center my-3">
-        <a href="https://bssinc.ir/" target="_blank" rel="noopener noreferrer">
-          {new Date().getFullYear()} BSS OSF
-        </a>
+        {new Date().getFullYear()} BSS OSF
       </p>
     </footer>
   );
