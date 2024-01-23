@@ -5,40 +5,45 @@ import { useTranslations } from 'next-intl';
 export default function Main() {
   const t = useTranslations('Index');
   return (
-    <main className="flex justify-center items-center">
-      <div className="relative flex flex-col lg:flex-row justify-between items-center mt-[12vh]">
-        <Image
-          height={9999}
-          width={9999}
-          src={"/images/grid.webp"}
-          alt="grid"
-          className="absolute top-2 z-10"
-        />
-        <Image
-          height={750}
-          width={750}
-          src={"/images/notebook.webp"}
-          alt="notebook"
-          className="z-20"
-        />
-        <div className="flex flex-col justify-center items-center z-20">
-          <p className="text-8xl hidden lg:block">
-            {t("ParchOS")}
-          </p>
-          <div className="flex justify-center items-center gap-4 mt-10">
-            <Link href={"/download"}>
-              <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3 hover:ring-8 ring-blue-300 cursor-pointer truncate transition ease-out duration-75">
-                {t("download")}
-              </button>
-            </Link>
-            <a href={"https://wiki.parchlinux.ir/"}>
-              <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3 hover:ring-8 ring-rose-300 cursor-pointer truncate transition ease-out duration-75">
-                {t("getStarted")}
-              </button>
-            </a>
-          </div>
+    <main className="flex flex-col lg:flex-row-reverse justify-between items-center w-full px-28 mt-5">
+      <Image
+        height={200}
+        width={200}
+        src={"/images/logo-big.svg"}
+        alt=""
+        className="w-1/2"
+      />
+      <div className="flex flex-col justify-center items-center w-1/2">
+        <p className="text-6xl text-white">{t("Combining")}</p>
+        <p className="text-base text-[#E0E0E0] my-3 leading-10">{t("ParchLinux")}</p>
+        <div className="flex justify-center items-center gap-16 mt-10">
+          <Link href={"/download"}>
+            <button className="flex justify-center items-center w-48 h-16 rounded-xl bg-[#3DC89E] cursor-pointer gap-2">
+              <p className="text-base text-white truncate">{t("download")}</p>
+              <Image
+                height={9999}
+                width={9999}
+                src={"/images/arrow.svg"}
+                alt=""
+                className="size-8"
+              />
+            </button>
+          </Link>
+          <Link href={"https://daramet.com/parchlinux"}>
+            <button className="flex justify-center items-center w-44 h-16 rounded-xl border border-solid border-[#3DC89E] cursor-pointer gap-2">
+              <p className="text-base text-[#3DC89E] truncate">{t("donate")}</p>
+              <Image
+                height={9999}
+                width={9999}
+                src={"/images/send.svg"}
+                alt=""
+                className="size-8"
+              />
+            </button>
+          </Link>
         </div>
       </div>
+
     </main>
   );
 }
