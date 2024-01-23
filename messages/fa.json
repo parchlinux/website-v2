@@ -30,8 +30,11 @@
     "WEBDEVELOPER": "توسعه دهنده وب",
     "DESIGNER": "طراح",
 
-    "WhatIs": "پارچ لینوکس چیست؟",
-    "WhatIsExpanded": "پارچ یک توزیع بر پایه آرچ است؛که سعی میکند زیبا،آسان برای استفاده،سبک،سریع و پایدار باشد",
+    "Combining": "Combining efficiency \n and simplicity",
+    "ParchLinux": "Parch Linux is an open-source, Arch-based Linux \n distribution, that tried to be pretty, easy to use, \n light, fast and stable.",
+
+    "Industry": "New industry",
+    
     "WhyCall": "چرا آن را پارچ صدا میکنیم!؟",
     "WhyCallExpanded": "در ابتدا قصد داشتیم پارچ را به پلتفرم ای برای کاربران فارسی زبان تبدیل کنیم برای همین نام آن را (Persian Aarch) Parch گذاشتیم. اما اکنون اهداف جامع تری نسبت به قبل داریم",
 
@@ -42,8 +45,6 @@
     "Fast": "سرعت",
     "FastExpanded": "پارچ لینوکس در دسکتاپ XFCE 1.5GB  رم مصرف میکند و در دسکتاپ LXQT 1GB با پارچ لینوکس میتوانید یک شانس دوباره به کامپیوتر قدیمی خود بدهید",
     "Community": "اجتماع کاربران",
-    "CommunityExpanded": "پارچ لینوکس در تلگرام انجمن فعال دارد که به سرعت مشکل شما را بررسی و برطرف \nمیکند.اگر  باگ یا مشکلی داشته باشید، میتوانید آن را در گروه گزارش دهید",
-    "OpenSource": "متن باز",
-    "OpenSourceExpanded": "پارچ لینوکس و تمام ابزار های آن کاملا متن باز است"
+    "CommunityExpanded": "پارچ لینوکس در تلگرام انجمن فعال دارد که به سرعت مشکل شما را بررسی و برطرف \nمیکند.اگر  باگ یا مشکلی داشته باشید، میتوانید آن را در گروه گزارش دهید"
   }
 }
