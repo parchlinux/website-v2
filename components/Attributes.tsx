@@ -1,13 +1,11 @@
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
 
 export default function Attributes() {
-  const t = useTranslations('Index');
   return (
     <div
       className="flex flex-col justify-center items-center mb-10 mt-40"
     >
-      <p className="text-center text-8xl text-white">{t("Industry")}</p>
+      <p className="text-center text-8xl text-white">New industry</p>
 
       <div className='flex flex-col justify-between items-center mt-16 gap-20'>
         <div className='flex justify-center items-center flex-row-reverse gap-48'>
@@ -28,9 +26,9 @@ export default function Attributes() {
                   </linearGradient>
                 </defs>
               </svg>
-              <p className="text-white text-8xl text-center">{t("Simple")}</p>
+              <p className="text-white text-8xl text-center">Simple</p>
             </span>
-            <p className="text-2xl text-[#E0E0E0] leading-10">{t("SimpleExpanded")}</p>
+            <p className="text-2xl text-[#E0E0E0] leading-10">Parch linux uses calamares graphical installer by default which makes it easier for you to install and use it.</p>
           </div>
         </div>
         <div className='flex justify-center items-center flex-row gap-48'>
@@ -51,9 +49,9 @@ export default function Attributes() {
                   </linearGradient>
                 </defs>
               </svg>
-              <p className="text-white text-8xl text-center">{t("Privacy")}</p>
+              <p className="text-white text-8xl text-center">Privacy</p>
             </span>
-            <p className="text-2xl text-[#E0E0E0] leading-10">{t("PrivacyExpanded")}</p>
+            <p className="text-2xl text-[#E0E0E0] leading-10">Unlike any other proprietary operating systems, Parch Linux respects your privacy and doesn't collect any information or data from you.</p>
           </div>
         </div>
         <div className='flex justify-center items-center flex-row-reverse gap-48'>
@@ -79,9 +77,9 @@ export default function Attributes() {
                   </linearGradient>
                 </defs>
               </svg>
-              <p className="text-white text-8xl text-center">{t("Fast")}</p>
+              <p className="text-white text-8xl text-center">Fast</p>
             </span>
-            <p className="text-2xl text-[#E0E0E0] leading-10">{t("FastExpanded")}</p>
+            <p className="text-2xl text-[#E0E0E0] leading-10">Parch Linux requires at least 1.5 GB of RAM with xfce desktop and at least 1 GB with lxqt desktop Give your old system a second chance with Parch Linux.</p>
           </div>
         </div>
         <div className='flex justify-center items-center flex-row gap-48'>
@@ -102,9 +100,9 @@ export default function Attributes() {
                   </linearGradient>
                 </defs>
               </svg>
-              <p className="text-white text-8xl text-center">{t("Community")}</p>
+              <p className="text-white text-8xl text-center">Community</p>
             </span>
-            <p className="text-2xl text-[#E0E0E0] leading-10">{t("CommunityExpanded")}</p>
+            <p className="text-2xl text-[#E0E0E0] leading-10">Parch Linux in Telegram has an active community that will quickly solve your problems. If you have a bug or problem, you can report it in the community.</p>
           </div>
         </div>
       </div>

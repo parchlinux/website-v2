@@ -1,17 +1,15 @@
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
 
 export default function Team() {
-    const t = useTranslations('Index');
     return (
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center my-10 gap-7 overflow-hidden">
-            <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
-                <div className="flex flex-col justify-center items-center gap-2" >
-                    <p className="text-xl md:text-3xl truncate">
-                        {t('SOHRAB')}
+            <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-20 px-5 flex flex-col justify-center items-center gap-4">
+                <div className="flex flex-col j items-center text-left gap-2" >
+                    <p className="text-lg md:text-2xl truncate">
+                        SOHRAB BEHDANI
                     </p>
-                    <p className="text-lg md:text-2xl">
-                        {t("FOUNDER")}
+                    <p className="text-base md:text-lg text-sky-600">
+                        FOUNDER
                     </p>
                 </div>
                 <Image
@@ -68,100 +66,22 @@ export default function Team() {
                             <path d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a3.614 3.614 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522c0-.859.22-1.541.66-2.046.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764.442.505.661 1.187.661 2.046v4.203z" />
                         </svg>
                     </a>
-                </div>
-            </li>
-            <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
-                <div className="flex flex-col justify-center items-center gap-2">
-                    <p className="text-xl md:text-3xl truncate">
-                        {t("KOMEIL")}
-                    </p>
-                    <p className="text-lg md:text-2xl">
-                        {t("FOUNDER")}
-                    </p>
-                </div>
-                <Image
-                    height={250}
-                    width={250}
-                    src={"https://avatars.githubusercontent.com/mmdbalkhi"}
-                    alt="KOMEIL PARSEH"
-                    title="KOMEIL PARSEH"
-                    className="rounded-lg h-52 w-52"
-                />
-                <div className="flex justify-center items-center gap-4">
                     <a
-                        href="https://twitter.com/mmdbalkhi"
+                        href="https://daramet.com/sohrabbehdani"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="20"
-                            height="20"
-                            fill="currentColor"
-                            className="bi bi-twitter"
-                            viewBox="0 0 16 16">
-                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                        </svg>
-                    </a>
-                    <a
-                        href="https://github.com/mmdbalkhi"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="20"
-                            height="20"
-                            fill="currentColor"
-                            className="bi bi-github"
-                            viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                        </svg>
+                       <svg  xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" className="icon w-6 h-6" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="M208 80H32a8 8 0 0 0-8 8v48a96.3 96.3 0 0 0 32.54 72H32a8 8 0 0 0 0 16h176a8 8 0 0 0 0-16h-24.54a96.59 96.59 0 0 0 27-40.09A40 40 0 0 0 248 128v-8a40 40 0 0 0-40-40m24 48a24 24 0 0 1-17.2 23a95.78 95.78 0 0 0 1.2-15V97.38A24 24 0 0 1 232 120ZM112 56V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0m32 0V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0m-64 0V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0"></path></svg>
                     </a>
                 </div>
             </li>
             <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <p className="text-xl md:text-3xl truncate">
-                        {t("JAVID")}
+                    <p className="text-lg md:text-2xl truncate">
+                        MANI JAMALI
                     </p>
-                    <p className="text-lg md:text-2xl">
-                        {t("MAINTAINER")}
-                    </p>
-                </div>
-                <Image
-                    height={250}
-                    width={250}
-                    src={"https://avatars.githubusercontent.com/javidizadi"}
-                    alt="JAVID IZADI"
-                    title="JAVID IZADI"
-                    className="rounded-lg "
-                />
-                <div className="flex justify-center items-center gap-4">
-                    <a
-                        href="https://github.com/javidizadi"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="20"
-                            height="20"
-                            fill="currentColor"
-                            className="bi bi-github"
-                            viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                        </svg>
-                    </a>
-                </div>
-            </li>
-            <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
-                <div className="flex flex-col justify-center items-center gap-2">
-                    <p className="text-xl md:text-3xl truncate">
-                        {t("MANI")}
-                    </p>
-                    <p className="text-lg md:text-2xl">
-                        {t("COREDEVELOPER")}
+                    <p className="text-base md:text-lg text-sky-600">
+                        CORE DEVELOPER
                     </p>
                 </div>
                 <Image
@@ -192,11 +112,95 @@ export default function Team() {
             </li>
             <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <p className="text-xl md:text-3xl truncate">
-                        {t("PARSA")}
+                    <p className="text-lg md:text-2xl truncate">
+                        JAVID IZADI
                     </p>
-                    <p className="text-lg md:text-2xl">
-                        {t("MAINTAINER")}
+                    <p className="text-base md:text-lg text-sky-600">
+                        MAINTAINER
+                    </p>
+                </div>
+                <Image
+                    height={250}
+                    width={250}
+                    src={"https://avatars.githubusercontent.com/javidizadi"}
+                    alt="JAVID IZADI"
+                    title="JAVID IZADI"
+                    className="rounded-lg "
+                />
+                <div className="flex justify-center items-center gap-4">
+                    <a
+                        href="https://github.com/javidizadi"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            className="bi bi-github"
+                            viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                    </a>
+                    <a
+                        href="https://daramet.com/javidizadi"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" className="icon w-6 h-6" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="M208 80H32a8 8 0 0 0-8 8v48a96.3 96.3 0 0 0 32.54 72H32a8 8 0 0 0 0 16h176a8 8 0 0 0 0-16h-24.54a96.59 96.59 0 0 0 27-40.09A40 40 0 0 0 248 128v-8a40 40 0 0 0-40-40m24 48a24 24 0 0 1-17.2 23a95.78 95.78 0 0 0 1.2-15V97.38A24 24 0 0 1 232 120ZM112 56V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0m32 0V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0m-64 0V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0"></path></svg>
+                    </a>
+                </div>
+            </li>
+            <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
+                <div className="flex flex-col justify-center items-center gap-2">
+                    <p className="text-lg md:text-2xl truncate">
+                        POURYA BARKATI
+                    </p>
+                    <p className="text-base md:text-lg text-sky-600">
+                        RUST DEVELOPER
+                    </p>
+                </div>
+                <Image
+                    height={250}
+                    width={250}
+                    src={"https://avatars.githubusercontent.com/BrPrS"}
+                    alt="POURYA BARKATI"
+                    title="POURYA BARKATI"
+                    className="rounded-lg "
+                />
+                <div className="flex justify-center items-center gap-4">
+                    <a
+                        href="https://github.com/BrPrS"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            className="bi bi-github"
+                            viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                    </a>
+                    <a
+                        href="https://daramet.com/prbarkati"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" className="icon w-6 h-6" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="M208 80H32a8 8 0 0 0-8 8v48a96.3 96.3 0 0 0 32.54 72H32a8 8 0 0 0 0 16h176a8 8 0 0 0 0-16h-24.54a96.59 96.59 0 0 0 27-40.09A40 40 0 0 0 248 128v-8a40 40 0 0 0-40-40m24 48a24 24 0 0 1-17.2 23a95.78 95.78 0 0 0 1.2-15V97.38A24 24 0 0 1 232 120ZM112 56V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0m32 0V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0m-64 0V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0"></path></svg>
+                    </a>
+                </div>
+            </li>
+            <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
+                <div className="flex flex-col justify-center items-center gap-2">
+                    <p className="text-lg md:text-2xl truncate">
+                        PARSA
+                    </p>
+                    <p className="text-base md:text-lg text-sky-600">
+                        MAINTAINER
                     </p>
                 </div>
                 <Image
@@ -227,11 +231,11 @@ export default function Team() {
             </li>
             <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <p className="text-xl md:text-3xl truncate">
-                        {t("SHAHRIAR")}
+                    <p className="text-lg md:text-2xl truncate">
+                        SHAHRIAR GHASEM POOR
                     </p>
-                    <p className="text-lg md:text-2xl">
-                        {t("MAINTAINER")}
+                    <p className="text-base md:text-lg text-sky-600">
+                        MAINTAINER
                     </p>
                 </div>
                 <Image
@@ -277,11 +281,11 @@ export default function Team() {
             </li>
             <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <p className="text-xl md:text-3xl truncate">
-                        {t("ABOLFAZL")}
+                    <p className="text-lg md:text-2xl truncate">
+                        ABOLFAZL BADIE
                     </p>
-                    <p className="text-lg md:text-2xl">
-                        {t("WEBDEVELOPER")}
+                    <p className="text-base md:text-lg text-sky-600">
+                        WEB TEAM LEAD
                     </p>
                 </div>
                 <Image
@@ -327,11 +331,11 @@ export default function Team() {
             </li>
             <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <p className="text-xl md:text-3xl truncate">
-                        {t("AliMohammad")}
+                    <p className="text-lg md:text-2xl truncate">
+                        ALI MOHAMMAD ESMAEELI
                     </p>
-                    <p className="text-lg md:text-2xl">
-                        {t("WEBDEVELOPER")}
+                    <p className="text-base md:text-lg text-sky-600">
+                        FRONTEND DEVELOPER
                     </p>
                 </div>
                 <Image
@@ -391,11 +395,130 @@ export default function Team() {
             </li>
             <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <p className="text-xl md:text-3xl truncate">
-                        {t("AHMADREZA")}
+                    <p className="text-lg md:text-2xl truncate">
+                        ALIREZA SADEGHI
                     </p>
-                    <p className="text-lg md:text-2xl">
-                        {t("DESIGNER")}
+                    <p className="text-base md:text-lg text-sky-600">
+                        WEB DEVELOPER
+                    </p>
+                </div>
+                <Image
+                    height={250}
+                    width={250}
+                    src={"https://avatars.githubusercontent.com/alirezawdx"}
+                    alt="ALIREZA SADEGHI"
+                    title="ALIREZA SADEGHI"
+                    className="rounded-lg "
+                />
+                <div className="flex justify-center items-center gap-4">
+                    <a
+                        href="https://github.com/ahmadreza3"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            className="bi bi-github"
+                            viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                    </a>
+                    <a
+                        href="https://daramet.com/alirezawdx"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
+                        <svg  xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" className="icon w-6 h-6" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="M208 80H32a8 8 0 0 0-8 8v48a96.3 96.3 0 0 0 32.54 72H32a8 8 0 0 0 0 16h176a8 8 0 0 0 0-16h-24.54a96.59 96.59 0 0 0 27-40.09A40 40 0 0 0 248 128v-8a40 40 0 0 0-40-40m24 48a24 24 0 0 1-17.2 23a95.78 95.78 0 0 0 1.2-15V97.38A24 24 0 0 1 232 120ZM112 56V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0m32 0V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0m-64 0V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0"></path></svg>
+                    </a>
+                </div>
+            </li>
+            <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
+                <div className="flex flex-col justify-center items-center gap-2">
+                    <p className="text-lg md:text-2xl truncate">
+                        ALI ALMASI
+                    </p>
+                    <p className="text-base md:text-lg text-sky-600">
+                        WEB DEVELOPER
+                    </p>
+                </div>
+                <Image
+                    height={250}
+                    width={250}
+                    src={"https://avatars.githubusercontent.com/AliAlmasi"}
+                    alt="ALI EMAMI"
+                    title="ALI EMAMI"
+                    className="rounded-lg "
+                />
+                <div className="flex justify-center items-center gap-4">
+                    <a
+                        href="https://github.com/AliAlmasi"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            className="bi bi-github"
+                            viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                    </a>
+                    <a
+                        href="https://daramet.com/alialmasi"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
+                        <svg  xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" className="icon w-6 h-6" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="M208 80H32a8 8 0 0 0-8 8v48a96.3 96.3 0 0 0 32.54 72H32a8 8 0 0 0 0 16h176a8 8 0 0 0 0-16h-24.54a96.59 96.59 0 0 0 27-40.09A40 40 0 0 0 248 128v-8a40 40 0 0 0-40-40m24 48a24 24 0 0 1-17.2 23a95.78 95.78 0 0 0 1.2-15V97.38A24 24 0 0 1 232 120ZM112 56V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0m32 0V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0m-64 0V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0"></path></svg>
+                    </a>
+                </div>
+            </li>
+            <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
+                <div className="flex flex-col justify-center items-center gap-2">
+                    <p className="text-lg md:text-2xl truncate">
+                        POUYA MADANKAR
+                    </p>
+                    <p className="text-base md:text-lg text-sky-600">
+                        FRONTEND DEVELOPER
+                    </p>
+                </div>
+                <Image
+                    height={250}
+                    width={250}
+                    src={"https://avatars.githubusercontent.com/pouyaMK"}
+                    alt="POUYA MADANKAR"
+                    title="POUYA MADANKAR"
+                    className="rounded-lg "
+                />
+                <div className="flex justify-center items-center gap-4">
+                    <a
+                        href="https://github.com/AEK84"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            className="bi bi-github"
+                            viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                    </a>
+                </div>
+            </li>
+            <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
+                <div className="flex flex-col justify-center items-center gap-2">
+                    <p className="text-lg md:text-2xl truncate">
+                        AHMADREZA KHATAMIAN
+                    </p>
+                    <p className="text-base md:text-lg text-sky-600">
+                        GRAPHIC DESIGNER
                     </p>
                 </div>
                 <Image
@@ -426,24 +549,24 @@ export default function Team() {
             </li>
             <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <p className="text-xl md:text-3xl truncate">
-                        {t("ALI")}
+                    <p className="text-lg md:text-2xl truncate">
+                        MOSTAFA AMINZAR
                     </p>
-                    <p className="text-lg md:text-2xl">
-                        {t("DESIGNER")}
+                    <p className="text-base md:text-lg text-sky-600">
+                        UI/UX DESIGNER
                     </p>
                 </div>
                 <Image
                     height={250}
                     width={250}
-                    src={"https://avatars.githubusercontent.com/AEK84"}
-                    alt="ALI EMAMI"
-                    title="ALI EMAMI"
+                    src={"https://avatars.githubusercontent.com/MosiO1998"}
+                    alt="MOSTAFA AMINZAR"
+                    title="MOSTAFA AMINZAR"
                     className="rounded-lg "
                 />
                 <div className="flex justify-center items-center gap-4">
                     <a
-                        href="https://github.com/AEK84"
+                        href="https://github.com/MosiO1998"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
@@ -456,6 +579,55 @@ export default function Team() {
                             viewBox="0 0 16 16">
                             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                         </svg>
+                    </a>
+                    <a
+                        href="https://daramet.com/mosio"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
+                       <svg  xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" className="icon w-6 h-6" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="M208 80H32a8 8 0 0 0-8 8v48a96.3 96.3 0 0 0 32.54 72H32a8 8 0 0 0 0 16h176a8 8 0 0 0 0-16h-24.54a96.59 96.59 0 0 0 27-40.09A40 40 0 0 0 248 128v-8a40 40 0 0 0-40-40m24 48a24 24 0 0 1-17.2 23a95.78 95.78 0 0 0 1.2-15V97.38A24 24 0 0 1 232 120ZM112 56V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0m32 0V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0m-64 0V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0"></path></svg>
+                    </a>
+                </div>
+            </li>
+            <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-10 px-5 flex flex-col justify-center items-center gap-4">
+                <div className="flex flex-col justify-center items-center gap-2">
+                    <p className="text-lg md:text-2xl truncate">
+                        MOHAMMAD EHSAN NAFARI
+                    </p>
+                    <p className="text-base md:text-lg text-sky-600">
+                        UI/UX DESIGNER
+                    </p>
+                </div>
+                <Image
+                    height={250}
+                    width={250}
+                    src={"https://avatars.githubusercontent.com/menafar2005"}
+                    alt="MOHAMMAD EHSAN NAFARI"
+                    title="MOHAMMAD EHSAN NAFARI"
+                    className="rounded-lg "
+                />
+                <div className="flex justify-center items-center gap-4">
+                    <a
+                        href="https://github.com/menafar2005"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            className="bi bi-github"
+                            viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                    </a>
+                    <a
+                        href="https://daramet.com/viraa"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-lg h-8 w-8 hover:bg-white hover:bg-opacity-20 hover:backdrop-blur-lg hover:drop-shadow-lg flex justify-center items-center">
+                         <svg  xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" className="icon w-6 h-6" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="M208 80H32a8 8 0 0 0-8 8v48a96.3 96.3 0 0 0 32.54 72H32a8 8 0 0 0 0 16h176a8 8 0 0 0 0-16h-24.54a96.59 96.59 0 0 0 27-40.09A40 40 0 0 0 248 128v-8a40 40 0 0 0-40-40m24 48a24 24 0 0 1-17.2 23a95.78 95.78 0 0 0 1.2-15V97.38A24 24 0 0 1 232 120ZM112 56V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0m32 0V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0m-64 0V24a8 8 0 0 1 16 0v32a8 8 0 0 1-16 0"></path></svg>
                     </a>
                 </div>
             </li>

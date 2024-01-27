@@ -1,9 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from 'next-intl';
 
 export default function Main() {
-  const t = useTranslations('Index');
   return (
     <main className="flex flex-col lg:flex-row-reverse justify-between items-center w-full px-28 mt-5">
       <Image
@@ -14,12 +12,12 @@ export default function Main() {
         className="w-1/2"
       />
       <div className="flex flex-col justify-center items-center w-1/2">
-        <p className="text-6xl text-white">{t("Combining")}</p>
-        <p className="text-base text-[#E0E0E0] my-3 leading-10">{t("ParchLinux")}</p>
+        <p className="text-6xl text-white">Combining efficiency and simplicity</p>
+        <p className="text-base text-[#E0E0E0] my-3 leading-10">Parch Linux is an open-source, Arch-based Linux distribution, that tried to be pretty, easy to use, light, fast and stable.</p>
         <div className="flex justify-center items-center gap-16 mt-10">
           <Link href={"/download"}>
             <button className="flex justify-center items-center w-48 h-16 rounded-xl bg-[#3DC89E] cursor-pointer gap-2">
-              <p className="text-base text-white truncate">{t("download")}</p>
+              <p className="text-base text-white truncate">Download</p>
               <Image
                 height={9999}
                 width={9999}
@@ -31,7 +29,7 @@ export default function Main() {
           </Link>
           <Link href={"https://daramet.com/parchlinux"}>
             <button className="flex justify-center items-center w-44 h-16 rounded-xl border border-solid border-[#3DC89E] cursor-pointer gap-2">
-              <p className="text-base text-[#3DC89E] truncate">{t("donate")}</p>
+              <p className="text-base text-[#3DC89E] truncate">Donate</p>
               <Image
                 height={9999}
                 width={9999}
