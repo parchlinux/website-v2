@@ -31,7 +31,7 @@ export default function Attributes() {
             <p className="text-2xl text-[#E0E0E0] leading-10">Parch linux uses calamares graphical installer by default which makes it easier for you to install and use it.</p>
           </div>
         </div>
-        <div className='flex justify-center items-center flex-row gap-48'>
+        <div id='privacy' className='flex justify-center items-center flex-row gap-48'>
           <Image
             height={200}
             width={200}

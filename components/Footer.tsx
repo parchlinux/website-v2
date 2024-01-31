@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="mt-auto">
+    <footer className="mt-auto mb-32">
       <div className="py-4 flex justify-center items-center gap-4">
         <a
           href="https://github.com/parchlinux"

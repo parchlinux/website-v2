@@ -1,5 +1,6 @@
 import Nav from "@/components/Nav";
 import DownloadList from "@/components/downloadList";
+import BottonNavigationbar from "@/components/childComponents/Navigationbar";
 import Footer from "@/components/Footer";
 
 export default function page() {
@@ -7,6 +8,7 @@ export default function page() {
     <>
       <Nav />
       <DownloadList />
+      <BottonNavigationbar />
       <Footer />
     </>
   )
