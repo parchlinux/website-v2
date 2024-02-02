@@ -53,7 +53,9 @@ export default function Attributes() {
               </svg>
               <p className="text-white text-4xl md:text-6xl lg:text-8xl text-center">Privacy</p>
             </span>
-            <p className="text-lg md:text-xl lg:text-2xl text-[#E0E0E0] leading-10">Unlike any other proprietary operating systems, Parch Linux respects your privacy and doesn't collect any information or data from you.</p>
+            <p className="text-lg md:text-xl lg:text-2xl text-[#E0E0E0] leading-10">
+              Unlike any other proprietary operating systems, Parch Linux respects your privacy and doesn't collect any information or data from you.
+            </p>
           </div>
         </div>
         <div className='flex justify-center items-center flex-row-reverse gap-16 md:gap-28 lg:gap-48'>
