@@ -8,7 +8,7 @@ export default function Attributes() {
       <p className="text-center text-4xl md:text-6xl lg:text-8xl text-white">New industry</p>
 
       <div className='flex flex-col justify-between items-center mt-16 gap-20'>
-        <div className='flex justify-center items-center flex-row-reverse gap-16 md:gap-28 lg:gap-48'>
+        <div className='flex justify-center items-center flex-row-reverse gap-2 md:gap-28 lg:gap-48'>
           <Image
             height={200}
             width={200}
@@ -29,10 +29,10 @@ export default function Attributes() {
               </svg>
               <p className="text-white text-4xl md:text-6xl lg:text-8xl text-center">Simple</p>
             </span>
-            <p className="text-lg md:text-xl lg:text-2xl text-[#E0E0E0] leading-10">Parch linux uses calamares graphical installer by default which makes it easier for you to install and use it.</p>
+            <p className="text-lg md:text-xl lg:text-2xl text-[#E0E0E0] leading-6 md:leading-10">Parch linux uses calamares graphical installer by default which makes it easier for you to install and use it.</p>
           </div>
         </div>
-        <div id='privacy' className='flex justify-center items-center flex-row gap-16 md:gap-28 lg:gap-48'>
+        <div id='privacy' className='flex justify-center items-center flex-row gap-2 md:gap-28 lg:gap-48'>
           <Image
             height={200}
             width={200}
@@ -53,12 +53,12 @@ export default function Attributes() {
               </svg>
               <p className="text-white text-4xl md:text-6xl lg:text-8xl text-center">Privacy</p>
             </span>
-            <p className="text-lg md:text-xl lg:text-2xl text-[#E0E0E0] leading-10">
+            <p className="text-lg md:text-xl lg:text-2xl text-[#E0E0E0] leading-6 md:leading-10">
               Unlike any other proprietary operating systems, Parch Linux respects your privacy and doesn't collect any information or data from you.
             </p>
           </div>
         </div>
-        <div className='flex justify-center items-center flex-row-reverse gap-16 md:gap-28 lg:gap-48'>
+        <div className='flex justify-center items-center flex-row-reverse gap-2 md:gap-28 lg:gap-48'>
           <Image
             height={200}
             width={200}
@@ -84,10 +84,10 @@ export default function Attributes() {
               </svg>
               <p className="text-white text-4xl md:text-6xl lg:text-8xl text-center">Fast</p>
             </span>
-            <p className="text-lg md:text-xl lg:text-2xl text-[#E0E0E0] leading-10">Parch Linux requires at least 1.5 GB of RAM with xfce desktop and at least 1 GB with lxqt desktop Give your old system a second chance with Parch Linux.</p>
+            <p className="text-lg md:text-xl lg:text-2xl text-[#E0E0E0] leading-6 md:leading-10">Parch Linux requires at least 1.5 GB of RAM with xfce desktop and at least 1 GB with lxqt desktop Give your old system a second chance with Parch Linux.</p>
           </div>
         </div>
-        <div className='flex justify-center items-center flex-row gap-16 md:gap-28 lg:gap-48'>
+        <div className='flex justify-center items-center flex-row gap-2 md:gap-28 lg:gap-48'>
           <Image
             height={200}
             width={200}
@@ -108,7 +108,7 @@ export default function Attributes() {
               </svg>
               <p className="text-white text-4xl md:text-6xl lg:text-8xl text-center">Community</p>
             </span>
-            <p className="text-lg md:text-xl lg:text-2xl text-[#E0E0E0] leading-10">Parch Linux in Telegram has an active community that will quickly solve your problems. If you have a bug or problem, you can report it in the community.</p>
+            <p className="text-lg md:text-xl lg:text-2xl text-[#E0E0E0] leading-6 md:leading-10">Parch Linux in Telegram has an active community that will quickly solve your problems. If you have a bug or problem, you can report it in the community.</p>
           </div>
         </div>
       </div>
