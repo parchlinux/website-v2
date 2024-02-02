@@ -1,23 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from 'next-intl';
 
 export default function DownloadList() {
-    const t = useTranslations('Index');
     return (
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center my-10 gap-7 overflow-hidden">
-            <li className="h-96 w-80 rounded-3xl bg-slate-100 text-black text-center py-10 px-5">
+            <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-12 px-5 flex flex-col justify-center items-center gap-1">
                 <Image
                     height={1000}
                     width={1000}
                     alt="Parch GNOME"
                     title="Parch GNOME"
                     src={"/images/GNOME.webp"}
-                    className="rounded-lg"
+                    className="rounded-xl"
                 />
                 <div className="flex flex-col justify-center items-start my-4">
-                    <p className="text-2xl md:text-4xl">Parch GNOME</p>
-                    <p className="text-xl md:text-2xl">1.7GB</p>
+                    <p className="text-lg md:text-2xl">Parch GNOME</p>
+                    <p className="text-sm md:text-lg">1.7GB</p>
                 </div>
                 <div className="flex justify-center items-center gap-4 my-4">
                     <Link
@@ -25,8 +23,8 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3 hover:ring-8 ring-rose-300 cursor-pointer truncate text-white">
-                            {t("download")}
+                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3  cursor-pointer truncate text-white">
+                            Download
                         </button>
                     </Link>
                     <Link
@@ -34,24 +32,24 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3 hover:ring-8 ring-blue-300 cursor-pointer truncate text-white">
-                            {t("Torrent")}
+                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3  cursor-pointer truncate text-white">
+                            Torrent
                         </button>
                     </Link>
                 </div>
             </li>
-            <li className="h-96 w-80 rounded-3xl bg-slate-100 text-black text-center py-10 px-5">
+            <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-12 px-5 flex flex-col justify-center items-center gap-1">
                 <Image
                     height={1000}
                     width={1000}
                     alt="Parch KDE"
                     title="Parch KDE"
                     src={"/images/PLASMA.webp"}
-                    className="rounded-lg"
+                    className="rounded-xl"
                 />
                 <div className="flex flex-col justify-center items-start my-4">
-                    <p className="text-2xl md:text-4xl">Parch KDE</p>
-                    <p className="text-xl md:text-2xl">1.9GB</p>
+                    <p className="text-lg md:text-2xl">Parch KDE</p>
+                    <p className="text-sm md:text-lg">1.9GB</p>
                 </div>
                 <div className="flex justify-center items-center gap-4 my-4">
                     <Link
@@ -59,8 +57,8 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3 hover:ring-8 ring-rose-300 cursor-pointer truncate text-white">
-                            {t("download")}
+                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3  cursor-pointer truncate text-white">
+                            Download
                         </button>
                     </Link>
                     <Link
@@ -68,24 +66,24 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3 hover:ring-8 ring-blue-300 cursor-pointer truncate text-white">
-                            {t("Torrent")}
+                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3  cursor-pointer truncate text-white">
+                            Torrent
                         </button>
                     </Link>
                 </div>
             </li>
-            <li className="h-96 w-80 rounded-3xl bg-slate-100 text-black text-center py-10 px-5">
+            <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-12 px-5 flex flex-col justify-center items-center gap-1">
                 <Image
                     height={1000}
                     width={1000}
                     alt="Parch XFCE"
                     title="Parch XFCE"
                     src={"/images/XFCE.webp"}
-                    className="rounded-lg"
+                    className="rounded-xl"
                 />
                 <div className="flex flex-col justify-center items-start my-4">
-                    <p className="text-2xl md:text-4xl">Parch XFCE</p>
-                    <p className="text-xl md:text-2xl">1.5GB</p>
+                    <p className="text-lg md:text-2xl">Parch XFCE</p>
+                    <p className="text-sm md:text-lg">1.5GB</p>
                 </div>
                 <div className="flex justify-center items-center gap-4 my-4">
                     <Link
@@ -93,8 +91,8 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3 hover:ring-8 ring-rose-300 cursor-pointer truncate text-white">
-                            {t("download")}
+                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3  cursor-pointer truncate text-white">
+                            Download
                         </button>
                     </Link>
                     <Link
@@ -102,24 +100,24 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3 hover:ring-8 ring-blue-300 cursor-pointer truncate text-white">
-                            {t("Torrent")}
+                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3  cursor-pointer truncate text-white">
+                            Torrent
                         </button>
                     </Link>
                 </div>
             </li>
-            <li className="h-96 w-80 rounded-3xl bg-slate-100 text-black text-center py-10 px-5">
+            <li className="h-[25.5rem] w-96 rounded-3xl shadow-2xl bg-[#1e1e1e] text-white text-center py-12 px-5 flex flex-col justify-center items-center gap-1">
                 <Image
                     height={1000}
                     width={1000}
                     alt="Parch CINNAMON"
                     title="Parch CINNAMON"
                     src={"/images/CINNAMON.webp"}
-                    className="rounded-lg"
+                    className="rounded-xl"
                 />
                 <div className="flex flex-col justify-center items-start my-4">
-                    <p className="text-xl md:text-3xl">Parch CINNAMON</p>
-                    <p className="text-xl md:text-2xl">1.5GB</p>
+                    <p className="text-lg md:text-2xl">Parch CINNAMON</p>
+                    <p className="text-sm md:text-lg">1.5GB</p>
                 </div>
                 <div className="flex justify-center items-center gap-4 my-4">
                     <Link
@@ -127,8 +125,8 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3 hover:ring-8 ring-rose-300 cursor-pointer truncate text-white">
-                            {t("download")}
+                        <button className="rounded-lg bg-gradient-to-r from-[#e55026] to-[#eeb200] text-xl px-7 py-3  cursor-pointer truncate text-white">
+                            Download
                         </button>
                     </Link>
                     <Link
@@ -136,8 +134,8 @@ export default function DownloadList() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3 hover:ring-8 ring-blue-300 cursor-pointer truncate text-white">
-                            {t("Torrent")}
+                        <button className="rounded-lg bg-gradient-to-r from-[#0020ee] to-[#1084f2] text-xl px-10 py-3  cursor-pointer truncate text-white">
+                            Torrent
                         </button>
                     </Link>
                 </div>

@@ -1,13 +1,15 @@
 import Nav from "@/components/Nav";
 import DownloadList from "@/components/downloadList";
+import BottonNavigationbar from "@/components/childComponents/Navigationbar";
 import Footer from "@/components/Footer";
 
 export default function page() {
   return (
-    <div className="min-h-screen scroll-smooth overflow-x-hidden bg-black text-white flex flex-col">
+    <>
       <Nav />
       <DownloadList />
+      <BottonNavigationbar />
       <Footer />
-    </div>
+    </>
   )
 }
