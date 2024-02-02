@@ -13,7 +13,7 @@ export default function Nav() {
           src={"/images/logo.svg"}
           alt="logo"
           title="Parch"
-          className="size-24 mt-5"
+          className="size-14 md:size-16 lg:size-24 mt-5"
         />
       </Link>
     </header >
